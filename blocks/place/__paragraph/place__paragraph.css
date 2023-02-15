@@ -1,0 +1,12 @@
+.place__paragraph {
+  grid-area: paragraph;
+  margin: 0 0 26px 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18;
+  color: #fff;
+  line-height: 1.63;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}

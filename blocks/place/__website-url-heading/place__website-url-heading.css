@@ -1,0 +1,12 @@
+.place__website-url-heading {
+  grid-area: url;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  max-height: 12px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #AAAAAA;
+  line-height: 1;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}

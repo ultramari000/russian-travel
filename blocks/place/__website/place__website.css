@@ -1,0 +1,6 @@
+.place__website {
+  max-height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}

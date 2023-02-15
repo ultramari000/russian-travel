@@ -1,0 +1,9 @@
+.intro__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 0;
+  min-height: 90px;
+}
