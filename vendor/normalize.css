@@ -20,12 +20,8 @@
  * Remove the margin in all browsers.
  */
 
-.page {
-  margin: 0 auto;
-  background-color: #2A2C2F;
-  min-width: 320px;
-  max-width: 1280px;
-  box-sizing: border-box;
+body {
+  margin: 0;
 }
 
 /**

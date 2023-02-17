@@ -3,6 +3,7 @@
   width: calc(100% - 2*148px);
   max-width: 984px;
   max-height: 1005px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1279px) {
@@ -28,6 +29,5 @@
     width: 100%;
     min-width: 320px;
     min-height: 406px;
-    margin-top: 48px;
   }
 }

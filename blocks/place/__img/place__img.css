@@ -3,6 +3,7 @@
   width: 100%;
   max-width: 460px;
   max-height: 460px;
+  display: block;
 }
 
 @media screen and (max-width: 1279px) {

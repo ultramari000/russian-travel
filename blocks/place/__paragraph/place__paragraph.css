@@ -5,6 +5,7 @@
   font-size: 18;
   color: #fff;
   line-height: 1.63;
+  max-width: 456px;
 }
 
 .place__paragraph:last-child {
