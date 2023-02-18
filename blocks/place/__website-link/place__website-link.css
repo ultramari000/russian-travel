@@ -1,10 +1,9 @@
 .place__website-link {
+  color: #fff;
   grid-area: url;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
-  color: #fff;
   text-decoration: underline;
   transition: opacity 1s;
 }

@@ -13,10 +13,9 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
-    width: calc(100% - 2*24px);
+    padding-left: calc(24px + (48 - 24) * ((100vw - 768px)) / (1024 - 768));
     max-width: 720px;
-    padding-left: 0;
-    margin: 88px 24px 0 24px;
+    margin-top: 88px;
   }
 }
 
@@ -26,6 +25,6 @@
     width: calc(100% - 2*16px);
     min-width: 288px;
     padding-left: 0;
-    margin: 64px 16px 0 16px;
+    margin: 64px auto 0 auto;
   }
 }

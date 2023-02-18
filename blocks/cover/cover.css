@@ -1,7 +1,6 @@
 .cover {
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
   box-sizing: border-box;
   margin: 92px auto 0 auto;
   background-image: url(../../images/cover__background.png);
@@ -38,4 +37,28 @@
 
 .cover:hover:before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding: 115px 104px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cover {
+    padding: 115px 35px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 425px) {
+  .cover {
+    padding: 33px 16px;
+  }
 }
