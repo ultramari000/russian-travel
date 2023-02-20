@@ -1,5 +1,4 @@
 .place {
-  padding-bottom: 80px;
   display: grid;
   grid-template-areas:
   "title url"
@@ -8,6 +7,7 @@
   grid-template-rows: repeat(2, auto);
   column-gap: 40px;
   row-gap: 48px;
+  padding-bottom: 80px;
 }
 
 .place:last-child {
@@ -17,18 +17,22 @@
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
-    padding-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .place {
     column-gap: 28px;
-    padding-bottom: 73px;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .place {
+    column-gap: 16px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 545px) {
   .place {
     padding-bottom: 50px;
     grid-template-areas:

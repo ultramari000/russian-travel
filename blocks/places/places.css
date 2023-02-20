@@ -6,10 +6,6 @@
   flex-direction: column;
 }
 
-.place:last-child {
-  padding-bottom: 0;
-}
-
 @media screen and (max-width: 1279px) {
   .places {
     width: calc(100% - (2*48px));
@@ -27,8 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    margin-top: 88px;
-    width: calc(100% - (2*12px));
+    width: calc(100% - 32px);
     min-width: 400px;
   }
 }
